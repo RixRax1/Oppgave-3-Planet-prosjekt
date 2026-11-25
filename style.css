@@ -19,6 +19,8 @@ html {
   font-weight: normal;
 }
 
+/* Header */
+
 header {
   display: flex;
   justify-content: space-between;
@@ -36,6 +38,7 @@ header {
   padding: 10px 10px;
 }
 
+/* Hero */
 #hero {
   min-height: 500px;
   padding: 40px;
