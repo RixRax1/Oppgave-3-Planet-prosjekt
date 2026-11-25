@@ -24,7 +24,6 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  border-bottom: 1px solid darkorange;
 }
 #navbar {
   display: flex;
@@ -35,4 +34,31 @@ header {
 .nav-item a {
   text-decoration: none;
   padding: 10px 10px;
+}
+
+#hero {
+  min-height: 500px;
+  padding: 40px;
+  border: 1px solid red;
+  background: black url(images/Saturn.jpg) left / contain no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.hero-text {
+  max-width: 300px;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 150px;
+  border: 1px solid red;
+}
+
+.hero-text h1 {
+  font-family: "BrunoAce";
+}
+
+.hero-text p {
+  font-family: "BrunoAce";
 }
