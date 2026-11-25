@@ -48,7 +48,7 @@ header {
 #hero {
   min-height: 500px;
   padding: 40px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   background: black url(images/Saturn.jpg) left / contain no-repeat;
   display: flex;
   justify-content: flex-end;
@@ -61,7 +61,7 @@ header {
   text-align: center;
   margin-top: 150px;
   margin-right: 150px;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .hero-text h1 {
