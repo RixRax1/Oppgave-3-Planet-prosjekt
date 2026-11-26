@@ -71,3 +71,8 @@ header {
 .hero-text p {
   font-family: "BrunoAce";
 }
+
+/* body */
+p {
+  font-family: "Poppins";
+}
