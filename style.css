@@ -76,3 +76,7 @@ header {
 p {
   font-family: "Poppins";
 }
+
+#moons {
+  display: flex;
+}
