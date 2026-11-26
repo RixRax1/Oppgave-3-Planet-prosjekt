@@ -199,10 +199,20 @@ p {
 }
 
 /* Other planets css */
+#otherplanets{
+  background-image: url(images/space.jpg);
+  padding-block: 10px;
+}
+#otherplanets h2{
+  color: white;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+}
 #planet-showcase{
   display: flex;
-  background-image: url(images/space.jpg);
   justify-content: space-around;
+  align-items: center;
   
 }
 .planet{
@@ -217,8 +227,12 @@ p {
   transition: 1s;
   font-weight: bolder;
   color: white;
+  font-family: "BrunoAce";
 }
 .planet:hover .planet-name{
   opacity: 1;
   bottom: 0px;
+}
+.planet img{
+  height: 175px;
 }
