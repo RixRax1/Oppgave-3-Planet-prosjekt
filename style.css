@@ -76,3 +76,27 @@ header {
 p {
   font-family: "Poppins";
 }
+
+.section-content {
+  display: flex;
+}
+
+/* Mythology section styling */
+.myth-img {
+  max-width: 250px;
+}
+#myth-cont-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(images/temple.jpg);
+  background-size: cover;
+  flex-grow: 2;
+}
+#myth-cont-text {
+  width: 75%;
+  height: 75%;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 5px;
+  overflow: scroll;
+}
