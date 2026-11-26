@@ -100,3 +100,6 @@ p {
   padding: 5px;
   overflow: scroll;
 }
+#moons {
+  display: flex;
+}
