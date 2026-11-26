@@ -1,20 +1,78 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-html{
-    scroll-behavior: smooth;
+html {
+  scroll-behavior: smooth;
 }
 
-@font-face { 
-	font-family: "BrunoAce"; 
-	src: url("./fonts/BrunoAce-Regular.ttf") format("truetype"); 
-	font-weight: normal;
+@font-face {
+  font-family: "BrunoAce";
+  src: url("./fonts/BrunoAce-Regular.ttf") format("truetype");
+  font-weight: normal;
 }
-@font-face { 
-	font-family: "Poppins"; 
-	src: url("./fonts/Poppins-Regular.ttf") format("truetype"); 
-	font-weight: normal;
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: normal;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  display: block;
+}
+#navbar {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+.nav-item a {
+  text-decoration: none;
+  padding: 10px 10px;
+}
+
+/* Hero */
+#hero {
+  min-height: 500px;
+  padding: 40px;
+  /* border: 1px solid red; */
+  background: black url(images/Saturn.jpg) left / contain no-repeat;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.hero-text {
+  max-width: 300px;
+  color: white;
+  text-align: center;
+  margin-top: 150px;
+  margin-right: 150px;
+  /* border: 1px solid red; */
+}
+
+.hero-text h1 {
+  font-family: "BrunoAce";
+}
+
+.hero-text p {
+  font-family: "BrunoAce";
+}
+
+/* body */
+p {
+  font-family: "Poppins";
 }
