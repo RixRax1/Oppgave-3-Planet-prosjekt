@@ -217,8 +217,13 @@ p {
 }
 
 /* Mythology section styling */
+#mythology{
+  overflow: hidden;
+  height: 459px;
+}
 .myth-img {
   max-width: 250px;
+  max-height: 459px;
 }
 #myth-cont-bg {
   display: flex;
@@ -227,6 +232,7 @@ p {
   background-image: url(images/temple.jpg);
   background-size: cover;
   flex-grow: 2;
+  overflow: hidden;
 }
 #myth-cont-text {
   width: 75%;
@@ -240,28 +246,46 @@ p {
 }
 
 /* Other planets css */
-#otherplanets{
+#otherplanets {
   background-image: url(images/space.jpg);
-  padding-block: 10px;
+  padding-block: 15px;
 }
-#otherplanets h2{
+#otherplanets h2 {
   color: white;
   width: 100%;
   text-align: center;
   margin-bottom: 10px;
 }
-#planet-showcase{
+#planet-showcase {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  
 }
-.planet{
+
+.planet {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-inline: -60px;
+  transition: 1s;
+  flex-grow: 1.1;
+  transform-origin: center;
 }
-.planet-name{
+/* Edge elements need slightly different css */
+#mercury{
+  margin-left: 0px;
+  transform-origin: left;
+}
+#neptune{
+  margin-right: 0px;
+  transform-origin: right;
+}
+.planet:hover {
+  margin-inline: -10px;
+  flex-grow: 1.2;
+  transform: scale(1.1);
+}
+.planet-name {
   opacity: 0;
   position: relative;
   bottom: 20px;
@@ -270,10 +294,10 @@ p {
   color: white;
   font-family: "BrunoAce";
 }
-.planet:hover .planet-name{
+.planet:hover .planet-name {
   opacity: 1;
   bottom: 0px;
 }
-.planet img{
+.planet img {
   height: 175px;
 }
