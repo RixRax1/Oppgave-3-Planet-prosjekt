@@ -1,3 +1,17 @@
+/* ========================= */
+/* CSS VARIABLES             */
+/* ========================= */
+
+:root {
+  /* colors */
+}
+
+/* spacing */
+
+/* ========================= */
+/* GLOBAL                    */
+/* ========================= */
+
 * {
   margin: 0;
   padding: 0;
@@ -19,7 +33,9 @@ html {
   font-weight: normal;
 }
 
-/* Header */
+/* ========================= */
+/* HEADER                    */
+/* ========================= */
 
 header {
   display: flex;
@@ -33,6 +49,7 @@ header {
   height: 50px;
   display: block;
 }
+
 #navbar {
   display: flex;
   gap: 20px;
@@ -48,7 +65,10 @@ header {
   padding: 10px 10px;
 }
 
-/* Hero styling */
+/* ========================= */
+/* HERO                    */
+/* ========================= */
+
 #hero {
   min-height: 500px;
   padding: 40px;
@@ -85,7 +105,10 @@ p {
   display: flex;
 }
 
-/* Timeline section styling */
+/* ========================= */
+/* TIMELINE                  */
+/* ========================= */
+
 #history {
   background-image: url(images/space.jpg);
   background-size: cover;
@@ -156,7 +179,11 @@ p {
 .tl-card * {
   color: aliceblue;
 }
-/* Moon section styling */
+
+/* ========================= */
+/* MOON                    */
+/* ========================= */
+
 #moons {
   display: flex;
   align-items: center;
@@ -220,8 +247,11 @@ p {
   cursor: pointer;
 }
 
-/* Mythology section styling */
-#mythology{
+/* ========================= */
+/* MYTHOLOGY                 */
+/* ========================= */
+
+#mythology {
   overflow: hidden;
   height: 459px;
 }
@@ -275,11 +305,11 @@ p {
   transform-origin: center;
 }
 /* Edge elements need slightly different css */
-#mercury{
+#mercury {
   margin-left: 0px;
   transform-origin: left;
 }
-#neptune{
+#neptune {
   margin-right: 0px;
   transform-origin: right;
 }
