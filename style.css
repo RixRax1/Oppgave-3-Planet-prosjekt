@@ -40,6 +40,10 @@ header {
 }
 
 .nav-item a {
+  color: black;
+}
+
+.nav-item a {
   text-decoration: none;
   padding: 10px 10px;
 }
@@ -261,7 +265,6 @@ p {
   justify-content: space-around;
   align-items: center;
 }
-
 .planet {
   display: flex;
   flex-direction: column;
